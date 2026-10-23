@@ -1,0 +1,34 @@
+{
+  "name": "Tm Visualization Suite: Composition",
+  "pitch": "Show each part as a share of a whole with five proportional views.",
+  "question": "What share does each part hold, and how does a second split divide it?",
+  "useWhen": "Show shares when the parts add up to a whole.",
+  "purposes": [
+    "composition",
+    "grid"
+  ],
+  "features": [
+    "Read each share of a whole on a fixed 0 to 100% scale.",
+    "Count each share in equal squares in a waffle.",
+    "Place one glyph for each unit in a group for each category.",
+    "Show how two splits share a whole in a marimekko.",
+    "See how volume flows between two splits in parallel sets.",
+    "Use the Qlik total of the current selection as the denominator."
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "100% stacked bar of order count by channel, with each bar split into delivery methods by color."
+  },
+  "screenshots": [
+    {
+      "file": "images/screenshot-1.png",
+      "alt": "Waffle chart of order count by customer segment, with equal squares for each segment.",
+      "caption": "Read each share as a count of squares."
+    },
+    {
+      "file": "images/screenshot-2.png",
+      "alt": "Marimekko chart of regional sales, with column width and cell height for two shares.",
+      "caption": "See how two splits share one whole."
+    }
+  ]
+}

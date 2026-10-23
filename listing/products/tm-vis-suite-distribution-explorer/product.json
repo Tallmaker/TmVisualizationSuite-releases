@@ -1,0 +1,33 @@
+{
+  "name": "Tm Visualization Suite: Distribution Explorer",
+  "pitch": "Compare distributions across categories with violin, raincloud, beeswarm, dot histogram, and ECDF views.",
+  "question": "How does the distribution of a measure differ across categories and groups?",
+  "useWhen": "Compare the shape, spread, or percentiles of one measure.",
+  "purposes": [
+    "distribution"
+  ],
+  "features": [
+    "Draw a violin for each category or group with a median and quartile box.",
+    "Add a half density, a summary box, and the raw observations in a raincloud.",
+    "Place one dot for each observation in a beeswarm.",
+    "Count observations in value ranges with a dot histogram.",
+    "Read percentiles in an ECDF curve for each category.",
+    "Select one observation, or the population behind a violin or a curve."
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Violin chart of basket value for four delivery methods, with a median and quartile box in each violin."
+  },
+  "screenshots": [
+    {
+      "file": "images/screenshot-1.png",
+      "alt": "Raincloud chart of order lead time with a half density, a summary box, and a strip of order dots.",
+      "caption": "Read the shape, the summary, and the observations together."
+    },
+    {
+      "file": "images/screenshot-2.png",
+      "alt": "ECDF curves of order lead time, one curve for each region, as rising step lines.",
+      "caption": "Compare percentiles across regions."
+    }
+  ]
+}

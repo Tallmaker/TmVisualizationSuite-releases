@@ -1,0 +1,33 @@
+{
+  "name": "Tm Visualization Suite: Process Explorer",
+  "pitch": "Follow cases through events, stages, and states with seven process views.",
+  "question": "How do cases move through the events and stages of a process?",
+  "useWhen": "Follow cases through events with a start time per event.",
+  "purposes": [
+    "process"
+  ],
+  "features": [
+    "See each case and its timed steps on one row in a trace.",
+    "View events over time in stage lanes in a swimlane.",
+    "Compare the order of events across cases.",
+    "Mark the important points in time for each case.",
+    "Read the most common paths through the stages.",
+    "Count the moves between states and the drop-out at each stage."
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Trace chart of order events with one row for each order and a timed step for each event."
+  },
+  "screenshots": [
+    {
+      "file": "images/screenshot-1.png",
+      "alt": "Swimlane timeline of order events in stage lanes over time, with a bar for each occurrence.",
+      "caption": "View the events of each stage over time."
+    },
+    {
+      "file": "images/screenshot-2.png",
+      "alt": "Funnel chart of checkout stages from session to payment, with one bar for each stage.",
+      "caption": "See how many cases reach each stage."
+    }
+  ]
+}

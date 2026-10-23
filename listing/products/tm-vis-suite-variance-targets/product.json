@@ -1,0 +1,33 @@
+{
+  "name": "Tm Visualization Suite: Variance & Targets",
+  "pitch": "Compare actual values with plan, prior, target, and range scenarios in five charts.",
+  "question": "How does actual compare with plan, prior, target, or an accepted range?",
+  "useWhen": "Compare one measure with a plan, prior, target, or range.",
+  "purposes": [
+    "variance"
+  ],
+  "features": [
+    "Compare actual with target, plan, and prior in a bullet chart.",
+    "Reconcile a reference total into an actual total in a waterfall.",
+    "Show the signed difference for each item in variance bars.",
+    "Mark actual values inside or outside an authored range.",
+    "Compare cumulative actual with cumulative plan and a final target.",
+    "Read one difference rule: actual minus reference, in one unit."
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Bullet chart of actual values with a target tick, a plan circle, and range zones for each item."
+  },
+  "screenshots": [
+    {
+      "file": "images/screenshot-1.png",
+      "alt": "Waterfall chart with a reference total bar, one floating bar for each item, and an actual total.",
+      "caption": "See which items move the total."
+    },
+    {
+      "file": "images/screenshot-2.png",
+      "alt": "Target band chart of actual points inside and outside an accepted range over twelve months.",
+      "caption": "Read values inside and outside a range."
+    }
+  ]
+}

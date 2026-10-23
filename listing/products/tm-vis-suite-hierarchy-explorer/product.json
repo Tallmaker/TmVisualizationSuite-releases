@@ -1,0 +1,33 @@
+{
+  "name": "Tm Visualization Suite: Hierarchy Explorer",
+  "pitch": "Show part-to-whole and parent-child structure across up to eight levels with five layouts.",
+  "question": "How does the whole divide into parts at each level of the hierarchy?",
+  "useWhen": "Show a hierarchy when each row is a full path from the root.",
+  "purposes": [
+    "hierarchy"
+  ],
+  "features": [
+    "Show the share of each node in a round sunburst.",
+    "Keep long labels in rectangles with an icicle.",
+    "Nest each node as a circle inside its parent.",
+    "Read the tree structure without a measure in a dendrogram.",
+    "Show a large tree in a round radial dendrogram.",
+    "Select the full path of a node from the root level down."
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Sunburst of product sales from department down to product name, with one ring for each level."
+  },
+  "screenshots": [
+    {
+      "file": "images/screenshot-1.png",
+      "alt": "Icicle chart of the product assortment with one rectangle for each node and a label where it fits.",
+      "caption": "Read the hierarchy in rectangles with long labels."
+    },
+    {
+      "file": "images/screenshot-2.png",
+      "alt": "Radial dendrogram of the product assortment, with the tree drawn around a centre.",
+      "caption": "Show a large tree in a round layout."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Tm Visualization Suite",
+  "pitch": "Ten Qlik Cloud visualization families that answer different analytical questions.",
+  "useWhen": "Add a chart type that a native Qlik chart does not draw.",
+  "purposes": [
+    "comparison",
+    "composition",
+    "grid",
+    "distribution",
+    "hierarchy",
+    "multivariate",
+    "process",
+    "relationship",
+    "spatial",
+    "temporal",
+    "variance"
+  ],
+  "features": [
+    "Install one family for each analytical question that you answer.",
+    "Change the mode of a family without a new data setup.",
+    "Read the current Qlik selection in every chart of the suite.",
+    "Select a Qlik value with the pointer, the keyboard, or touch.",
+    "Follow the light or the dark Qlik theme in text, colors, and surface.",
+    "Read one author guide for each family and one install guide."
+  ],
+  "shortlinks": [
+    "tmvissuite"
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Calendar heatmap of daily net sales for nine regions on the Temporal Patterns sheet."
+  },
+  "screenshots": [
+    {
+      "file": "images/screenshot-1.png",
+      "alt": "Trace chart of order events with one row for each order, from the Process Explorer family.",
+      "caption": "Cases and events, from the Process Explorer family."
+    },
+    {
+      "file": "images/screenshot-2.png",
+      "alt": "Bullet chart of actual values with target and plan markers, from the Variance & Targets family.",
+      "caption": "Actual against target, from the Variance & Targets family."
+    }
+  ],
+  "key": "tm-visualization-suite",
+  "products": [
+    {
+      "key": "tm-vis-suite-temporal-patterns",
+      "anchor": "temporal"
+    },
+    {
+      "key": "tm-vis-suite-distribution-explorer",
+      "anchor": "distribution"
+    },
+    {
+      "key": "tm-vis-suite-comparison-charts",
+      "anchor": "comparison"
+    },
+    {
+      "key": "tm-vis-suite-relationship-explorer",
+      "anchor": "relationship"
+    },
+    {
+      "key": "tm-vis-suite-hierarchy-explorer",
+      "anchor": "hierarchy"
+    },
+    {
+      "key": "tm-vis-suite-multivariate-explorer",
+      "anchor": "multivariate"
+    },
+    {
+      "key": "tm-vis-suite-process-explorer",
+      "anchor": "process"
+    },
+    {
+      "key": "tm-vis-suite-spatial-explorer",
+      "anchor": "spatial"
+    },
+    {
+      "key": "tm-vis-suite-variance-targets",
+      "anchor": "variance-targets"
+    },
+    {
+      "key": "tm-vis-suite-composition",
+      "anchor": "composition"
+    }
+  ]
+}

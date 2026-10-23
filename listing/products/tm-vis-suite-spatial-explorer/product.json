@@ -1,0 +1,33 @@
+{
+  "name": "Tm Visualization Suite: Spatial Explorer",
+  "pitch": "Group locations into H3 areas and color each area by its value on a map.",
+  "question": "Where are the values, and how do they differ between areas of the map?",
+  "useWhen": "Map values when each row has a latitude and a longitude.",
+  "purposes": [
+    "spatial"
+  ],
+  "features": [
+    "Group locations into H3 hexagon areas at a resolution from 0 to 15.",
+    "Color each area by the value of the observations in it.",
+    "Show a bundled country outline with no network request.",
+    "Add your own tile service as a background map with your attribution text.",
+    "Select every observation in an area with one click.",
+    "Pan and zoom the map without a change to the Qlik selection."
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "H3 hexagon map of delivery points in Norway, Sweden, and Denmark, with darker areas for higher value."
+  },
+  "screenshots": [
+    {
+      "file": "images/screenshot-1.png",
+      "alt": "H3 map of delivery points with larger hexagon areas across Norway, Sweden, and Denmark.",
+      "caption": "Group delivery points into larger areas."
+    },
+    {
+      "file": "images/screenshot-2.png",
+      "alt": "Zoomed H3 map of delivery points around the densest cluster, with each hexagon area easier to read.",
+      "caption": "Zoom in to read one area in detail."
+    }
+  ]
+}

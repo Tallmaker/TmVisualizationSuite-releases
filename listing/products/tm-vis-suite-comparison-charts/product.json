@@ -1,0 +1,33 @@
+{
+  "name": "Tm Visualization Suite: Comparison Charts",
+  "pitch": "Compare categories, stages, ranges, and ranks with five chart types on one data setup.",
+  "question": "How do values differ across categories, between two points, or across stages?",
+  "useWhen": "Compare categories, stages, ranges, or ranks in one view.",
+  "purposes": [
+    "comparison"
+  ],
+  "features": [
+    "Show the change between two measures for each category in a dumbbell.",
+    "Compare one value across many categories in a sorted dot plot.",
+    "Add a stem to the baseline to draw a lollipop.",
+    "Draw a range from minimum to maximum with actual and target markers.",
+    "Compare values between stages with a slopegraph.",
+    "Follow the rank of each category across stages with a bump chart."
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Dumbbell chart of store sales for two fiscal years, with a connector between the two dots."
+  },
+  "screenshots": [
+    {
+      "file": "images/screenshot-1.png",
+      "alt": "Cleveland dot plot of shrinkage percent for 48 stores, sorted from the highest value.",
+      "caption": "Compare one value across many categories."
+    },
+    {
+      "file": "images/screenshot-2.png",
+      "alt": "Bump chart of nine departments across twelve quarters, with one line for each rank.",
+      "caption": "Follow rank changes across stages."
+    }
+  ]
+}

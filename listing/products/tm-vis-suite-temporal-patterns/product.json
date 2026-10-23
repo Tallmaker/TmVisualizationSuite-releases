@@ -1,0 +1,33 @@
+{
+  "name": "Tm Visualization Suite: Temporal Patterns",
+  "pitch": "Find daily, weekly, and yearly patterns in Qlik time data with six chart types.",
+  "question": "How do values change over time, and which daily or seasonal pattern repeats?",
+  "useWhen": "Find a daily, weekly, or seasonal pattern in time data.",
+  "purposes": [
+    "temporal"
+  ],
+  "features": [
+    "Draw daily values as a calendar heatmap with weekday patterns and gaps.",
+    "Compare the shape of one time series across many categories in a ridgeline.",
+    "Fold a long time series into magnitude bands in a compact horizon chart.",
+    "Compare the same period across years with a cycle plot.",
+    "Split a total into stacked series with a streamgraph.",
+    "Read many repeating periods in a seasonal heatmap."
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Calendar heatmap of daily net sales for nine regions, with one cell for each trading day."
+  },
+  "screenshots": [
+    {
+      "file": "images/screenshot-1.png",
+      "alt": "Ridgeline chart with one ridge for each of nine regions across three years of daily sales.",
+      "caption": "Compare the shape of each region on one time axis."
+    },
+    {
+      "file": "images/screenshot-2.png",
+      "alt": "Streamgraph of quarterly net sales split by department, stacked as layers over time.",
+      "caption": "See how a total splits into parts over time."
+    }
+  ]
+}

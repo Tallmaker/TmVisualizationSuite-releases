@@ -1,0 +1,34 @@
+{
+  "name": "Tm Visualization Suite: Multivariate Explorer",
+  "pitch": "Compare two to twelve measures for each observation with matrices and parallel coordinates.",
+  "question": "Which measures move together, and which observations stand apart?",
+  "useWhen": "Compare several measures when each row is one observation.",
+  "purposes": [
+    "multivariate",
+    "grid"
+  ],
+  "features": [
+    "Read the Pearson coefficient for every pair of measures in one grid.",
+    "Compare every pair of measures in a scatterplot matrix.",
+    "Follow each observation across many measures as one line.",
+    "Map up to twelve measures in one ordered set of slots.",
+    "Sample evenly with a notice when the result holds more observations.",
+    "See selected and excluded marks by a tick or a dashed outline."
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Correlation matrix of ten store measures with the coefficient in each cell and a diverging color."
+  },
+  "screenshots": [
+    {
+      "file": "images/screenshot-1.png",
+      "alt": "Scatterplot matrix of six store measures with one dot for each store month in every panel.",
+      "caption": "Compare every pair of measures at one time."
+    },
+    {
+      "file": "images/screenshot-2.png",
+      "alt": "Parallel coordinates of eight store measures with one line for each store month.",
+      "caption": "Follow each observation across many measures."
+    }
+  ]
+}

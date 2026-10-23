@@ -1,0 +1,33 @@
+{
+  "name": "Tm Visualization Suite: Relationship Explorer",
+  "pitch": "Show flows, networks, and adjacency between categories with five linked views.",
+  "question": "How do the parts of a network connect, and how much flows between them?",
+  "useWhen": "Show how a source connects to a target.",
+  "purposes": [
+    "relationship"
+  ],
+  "features": [
+    "Show flows in both directions between nodes in a chord diagram.",
+    "Follow a quantity through ordered stages in an alluvial diagram.",
+    "Find clusters and central nodes in a network graph.",
+    "Place the nodes on one line and join them with arcs.",
+    "Read many connections as cells in an adjacency matrix.",
+    "Step through time snapshots with the arrows above the chart."
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Chord diagram of pallet flows between suppliers, distribution centres, and regions."
+  },
+  "screenshots": [
+    {
+      "file": "images/screenshot-1.png",
+      "alt": "Alluvial diagram of pallet flows through two supply chain stages, with ribbons between blocks.",
+      "caption": "Follow a quantity through ordered stages."
+    },
+    {
+      "file": "images/screenshot-2.png",
+      "alt": "Adjacency matrix with a source row and a target column for each node, and a cell for each flow.",
+      "caption": "Read many connections without overlapping lines."
+    }
+  ]
+}
