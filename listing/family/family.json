@@ -1,5 +1,6 @@
 {
   "name": "Tm Visualization Suite",
+  "question": "Which chart answers the question you ask of your data?",
   "pitch": "Ten Qlik Cloud visualization families that answer different analytical questions.",
   "useWhen": "Add a chart type that a native Qlik chart does not draw.",
   "purposes": [
