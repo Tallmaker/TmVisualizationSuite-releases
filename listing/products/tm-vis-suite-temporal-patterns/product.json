@@ -1,0 +1,64 @@
+{
+  "name": "Tm Visualization Suite: Temporal Patterns",
+  "pitch": "See daily rhythm, seasons and trends in one view, and spot the days that break the pattern.",
+  "question": "When do things happen, and how do the patterns repeat over time?",
+  "useWhen": "Show how a value moves and repeats over time.",
+  "purposes": [
+    "temporal"
+  ],
+  "features": [
+    "Compare many series on one rhythm",
+    "Pack a long series into a small space",
+    "Lay the years on top of each other",
+    "Watch the mix change over time"
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Calendar heatmap of daily sales over three years, one block per year, with the darkest days around December.",
+    "caption": "Every day of three years at once: the busy weeks stand out"
+  },
+  "screenshots": [
+    {
+      "file": "images/gallery-01.png",
+      "alt": "Seasonal heatmap with years as rows and months as columns, coloured by sales and darkest in December.",
+      "caption": "A seasonal heatmap shows which months run high, year by year"
+    },
+    {
+      "file": "images/gallery-02.png",
+      "alt": "Line chart of monthly sales for one region with one line for each year, running January to December.",
+      "caption": "Select one region and the yearly lines show its own season"
+    }
+  ],
+  "questions": [
+    "Which weekdays and months are busiest?",
+    "How do regions compare across the same years?",
+    "Which categories grow or fade over the seasons?"
+  ],
+  "audience": "Analysts and BI leads who look for rhythm, seasons and trends in sales or activity over time.",
+  "featureStrips": [
+    {
+      "heading": "Compare many series on one rhythm",
+      "text": "Ridgelines stack one small trend per group, so you can compare their shape and timing at a glance.",
+      "image": "images/feature-01.png",
+      "alt": "Ridgeline chart with one daily trend per region stacked on a shared time axis."
+    },
+    {
+      "heading": "Pack a long series into a small space",
+      "text": "Horizon bands fold a long series into bands of colour, so many weeks fit in one slim strip.",
+      "image": "images/feature-02.png",
+      "alt": "Horizon chart of weekly sales, folded into bands of orange and blue over four years."
+    },
+    {
+      "heading": "Lay the years on top of each other",
+      "text": "A cycle plot draws one line per year over the same months, so you see the season and the trend.",
+      "image": "images/feature-03.png",
+      "alt": "Line chart of monthly sales with one line for each year, all running January to December."
+    },
+    {
+      "heading": "Watch the mix change over time",
+      "text": "A streamgraph stacks the groups into flowing bands, so you see which grow and which shrink.",
+      "image": "images/feature-04.png",
+      "alt": "Streamgraph of monthly sales by product group, stacked areas that widen and narrow over time."
+    }
+  ]
+}

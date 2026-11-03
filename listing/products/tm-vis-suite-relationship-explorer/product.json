@@ -1,0 +1,64 @@
+{
+  "name": "Tm Visualization Suite: Relationship Explorer",
+  "pitch": "See how suppliers, sites and customers connect, and which links carry the most volume.",
+  "question": "Who is connected to whom, and how strong are the links?",
+  "useWhen": "Show links and flows between two sets of things.",
+  "purposes": [
+    "relationship"
+  ],
+  "features": [
+    "Follow the flow from one stage to the next",
+    "Find the hubs in a network",
+    "Read many links along one line",
+    "Look up any pair in a matrix"
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Chord diagram of suppliers and distribution centers, with ribbons whose width shows the volume between them.",
+    "caption": "Who supplies whom: ribbon width shows the volume"
+  },
+  "screenshots": [
+    {
+      "file": "images/gallery-01.png",
+      "alt": "Chord diagram of suppliers and distribution centers for the fourth quarter of fiscal year 2025.",
+      "caption": "Select a quarter and the chord shows only that period"
+    },
+    {
+      "file": "images/gallery-02.png",
+      "alt": "Network diagram of suppliers and sites for the fourth quarter of fiscal year 2025.",
+      "caption": "The same network for one quarter shows which hubs change"
+    }
+  ],
+  "questions": [
+    "Which suppliers deliver to which distribution centers?",
+    "Which connections carry the most volume?",
+    "How does the flow change from one quarter to the next?"
+  ],
+  "audience": "Analysts and BI leads who study flows and links between suppliers, sites, teams or customers.",
+  "featureStrips": [
+    {
+      "heading": "Follow the flow from one stage to the next",
+      "text": "An alluvial diagram sends each supplier's volume to the sites that receive it, so shifts between stages show.",
+      "image": "images/feature-01.png",
+      "alt": "Alluvial diagram with suppliers on the left and receiving sites on the right, joined by bands of different widths."
+    },
+    {
+      "heading": "Find the hubs in a network",
+      "text": "A network draws each party as a node and each link as a line, so busy hubs and lone nodes stand out.",
+      "image": "images/feature-02.png",
+      "alt": "Network diagram of suppliers and sites, with a few hub nodes joined to many others."
+    },
+    {
+      "heading": "Read many links along one line",
+      "text": "An arc diagram puts every party on one line and draws each link as an arc, so long and short links compare.",
+      "image": "images/feature-03.png",
+      "alt": "Arc diagram with suppliers and sites in a row and arcs above the line for each link."
+    },
+    {
+      "heading": "Look up any pair in a matrix",
+      "text": "An adjacency matrix gives every pair its own cell, so dense and empty areas show without any overlap.",
+      "image": "images/feature-04.png",
+      "alt": "Matrix with suppliers as rows and sites as columns, cells shaded by the volume between each pair."
+    }
+  ]
+}

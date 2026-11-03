@@ -1,0 +1,78 @@
+{
+  "name": "Tm Visualization Suite: Comparison Charts",
+  "pitch": "Compare categories, ranges and ranks in one view, and see who moved and by how much.",
+  "question": "How do values differ across categories, between two points, or across stages?",
+  "useWhen": "Compare categories, stages, ranges, or ranks in one view.",
+  "purposes": [
+    "comparison"
+  ],
+  "features": [
+    "See the change between two points",
+    "Rank many categories on one scale",
+    "Draw a stem to the baseline",
+    "Show the range, and where you are in it",
+    "Compare two stages side by side",
+    "Follow rank across many stages"
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Vertical dumbbell chart of net sales for two fiscal years per store, grouped by store format.",
+    "caption": "Two years per store: who grew, and by how much"
+  },
+  "screenshots": [
+    {
+      "file": "images/gallery-01.png",
+      "alt": "Dumbbell chart of net sales in two fiscal years for the hypermarkets only, with the change shown beside each store.",
+      "caption": "Select a store format and the dumbbells show only its stores"
+    },
+    {
+      "file": "images/gallery-02.png",
+      "alt": "Vertical dot plot of one value per store, grouped by store format.",
+      "caption": "The dot plot also runs upright, for a column-style comparison"
+    }
+  ],
+  "questions": [
+    "Which stores grew most between two years?",
+    "How wide is the spread of lead times by region?",
+    "Which departments climbed or fell in rank?"
+  ],
+  "audience": "Analysts and BI leads who compare categories, periods or stages for a business review.",
+  "featureStrips": [
+    {
+      "heading": "See the change between two points",
+      "text": "A dumbbell joins the two values of each category, so a long line means a big change.",
+      "image": "images/feature-01.png",
+      "alt": "Horizontal dumbbell chart of net sales in two fiscal years per store, one outlier with a very long line."
+    },
+    {
+      "heading": "Rank many categories on one scale",
+      "text": "A dot plot sorts every category on one axis, so the highest and lowest stand out at once.",
+      "image": "images/feature-02.png",
+      "alt": "Dot plot of one value for about forty stores, grouped by store format and sorted from the highest."
+    },
+    {
+      "heading": "Draw a stem to the baseline",
+      "text": "Add a stem from each dot to the baseline for a lollipop that reads like a lighter bar chart.",
+      "image": "images/feature-03.png",
+      "alt": "Lollipop chart of one value per store with a stem from each dot to the baseline."
+    },
+    {
+      "heading": "Show the range, and where you are in it",
+      "text": "A range plot draws minimum to maximum with the actual value and the target marked on top.",
+      "image": "images/feature-04.png",
+      "alt": "Range plot of lead time per region, a bar from minimum to maximum with median and target markers."
+    },
+    {
+      "heading": "Compare two stages side by side",
+      "text": "A slopegraph connects each category between two stages, so risers and fallers show as lines.",
+      "image": "images/feature-05.png",
+      "alt": "Slopegraph per region joining each store between March 2025 and March 2026 with one line per store."
+    },
+    {
+      "heading": "Follow rank across many stages",
+      "text": "A bump chart tracks the rank of each category over time, so you see who overtakes whom.",
+      "image": "images/feature-06.png",
+      "alt": "Bump chart of nine departments ranked across twelve quarters with one coloured line per department."
+    }
+  ]
+}

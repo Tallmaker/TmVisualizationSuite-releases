@@ -1,0 +1,64 @@
+{
+  "name": "Tm Visualization Suite: Process Explorer",
+  "pitch": "Follow every order through its steps, and see where it waits, loops or takes a detour.",
+  "question": "How do cases move through a process, and where do they get stuck?",
+  "useWhen": "Show how cases move through steps over time.",
+  "purposes": [
+    "process"
+  ],
+  "features": [
+    "See each case as a row of events",
+    "Line up the steps of many cases",
+    "Mark the moments that matter",
+    "Follow the typical journey"
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Swimlane chart of order events grouped by team: customer, payment, store, customer service and carrier.",
+    "caption": "Who holds the order at each moment, team by team"
+  },
+  "screenshots": [
+    {
+      "file": "images/gallery-01.png",
+      "alt": "State transition diagram of order steps with arrows between them, thicker where more cases pass.",
+      "caption": "A state diagram shows which step follows which, and how often"
+    },
+    {
+      "file": "images/gallery-02.png",
+      "alt": "Trace chart of the carrier's orders, one row per order with its delivery steps and the total time at right.",
+      "caption": "Select a team and the trace shows only its orders"
+    }
+  ],
+  "questions": [
+    "Where do orders wait the longest?",
+    "Which paths do cases take, and how often?",
+    "Where does the process loop back or fail?"
+  ],
+  "audience": "Analysts and BI leads who study how orders, tickets or cases flow through a process.",
+  "featureStrips": [
+    {
+      "heading": "See each case as a row of events",
+      "text": "A trace gives every order its own row, with each step on the time axis, so slow cases are easy to find.",
+      "image": "images/feature-01.png",
+      "alt": "Trace chart with one row per order and its steps as dots and bars on a time axis."
+    },
+    {
+      "heading": "Line up the steps of many cases",
+      "text": "An event sequence orders the steps of each case, so you compare how different cases unfold.",
+      "image": "images/feature-02.png",
+      "alt": "Event sequence of order steps listed in order with a dot at the time of each step."
+    },
+    {
+      "heading": "Mark the moments that matter",
+      "text": "Milestones show when each case reaches a key stage, so you see which cases reach it late.",
+      "image": "images/feature-03.png",
+      "alt": "Milestone chart with one row per order and a mark where it reaches each stage."
+    },
+    {
+      "heading": "Follow the typical journey",
+      "text": "A journey chart lines the cases up by stage, so you see which stage each one reaches and when.",
+      "image": "images/feature-04.png",
+      "alt": "Journey chart with orders as rows and stages Order, Payment, Fulfilment, Delivery and After-sales as columns."
+    }
+  ]
+}

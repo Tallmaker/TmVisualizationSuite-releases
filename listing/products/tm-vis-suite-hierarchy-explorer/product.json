@@ -1,0 +1,64 @@
+{
+  "name": "Tm Visualization Suite: Hierarchy Explorer",
+  "pitch": "See how a total splits into categories and sub-categories, and which branches carry the weight.",
+  "question": "How is the whole built from its parts, level by level?",
+  "useWhen": "Show how a total splits across levels of a hierarchy.",
+  "purposes": [
+    "hierarchy"
+  ],
+  "features": [
+    "Read a total as rings",
+    "Compare levels side by side",
+    "Spot the heavy groups in nested circles",
+    "Follow each path as a tree"
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Icicle chart of net sales by product group and sub-category, drawn as stacked columns with one colour per group.",
+    "caption": "Which product groups carry the sales, level by level"
+  },
+  "screenshots": [
+    {
+      "file": "images/gallery-01.png",
+      "alt": "Radial tree with the top level in the centre and items on the outer ring, coloured by product group.",
+      "caption": "A radial tree fits a deep hierarchy into a round space"
+    },
+    {
+      "file": "images/gallery-02.png",
+      "alt": "Top-down tree chart with product groups on the first row and items below, labels rotated.",
+      "caption": "Turn the tree top-down when the labels are short"
+    }
+  ],
+  "questions": [
+    "Which product groups make up most of our sales?",
+    "Where does one category split into many small items?",
+    "How do departments, groups and items nest?"
+  ],
+  "audience": "Analysts and BI leads who explain a total through its categories and sub-categories.",
+  "featureStrips": [
+    {
+      "heading": "Read a total as rings",
+      "text": "A sunburst puts the top level in the centre and each deeper level in the next ring, sized by value.",
+      "image": "images/feature-01.png",
+      "alt": "Sunburst chart with product groups in the inner ring and sub-categories and items in the outer rings."
+    },
+    {
+      "heading": "Compare levels side by side",
+      "text": "An icicle lines the levels up as columns, so you can compare branch sizes across each level.",
+      "image": "images/feature-02.png",
+      "alt": "Icicle chart with five levels from product group to item, one column per level."
+    },
+    {
+      "heading": "Spot the heavy groups in nested circles",
+      "text": "Circle packing nests items inside their group, so the big groups and their parts show at one glance.",
+      "image": "images/feature-03.png",
+      "alt": "Circle packing chart, large circles for product groups with smaller circles for items inside each."
+    },
+    {
+      "heading": "Follow each path as a tree",
+      "text": "A tree draws every branch with its label, so you can read a path from the top down to a single item.",
+      "image": "images/feature-04.png",
+      "alt": "Left-to-right tree with product groups, sub-categories and items, labelled on every branch."
+    }
+  ]
+}

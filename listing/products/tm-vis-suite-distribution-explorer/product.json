@@ -1,0 +1,64 @@
+{
+  "name": "Tm Visualization Suite: Distribution Explorer",
+  "pitch": "See the full spread of your values, not just the average, and find the groups that behave differently.",
+  "question": "How are my values spread, and what hides behind the average?",
+  "useWhen": "Show how values spread inside and between groups.",
+  "purposes": [
+    "distribution"
+  ],
+  "features": [
+    "Add the raw values next to the shape",
+    "Show every single value",
+    "See how many fall below each level",
+    "Count the values in every bin"
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Violin charts of basket value for twelve groups of delivery method and channel, each with a box inside.",
+    "caption": "The full shape of every group, not just its average"
+  },
+  "screenshots": [
+    {
+      "file": "images/gallery-01.png",
+      "alt": "Violin charts of basket value for web shop orders, one violin for each delivery method and customer group.",
+      "caption": "Select a channel and every violin shows only its orders"
+    },
+    {
+      "file": "images/gallery-02.png",
+      "alt": "Raincloud chart of lead time for home delivery, points on the left and a density with a box on the right.",
+      "caption": "Select one group and the raincloud shows its own spread"
+    }
+  ],
+  "questions": [
+    "Do customers in one channel spend very differently?",
+    "How long do deliveries really take?",
+    "Where are the outliers?"
+  ],
+  "audience": "Analysts and BI leads who look beyond the average to the full spread of a number.",
+  "featureStrips": [
+    {
+      "heading": "Add the raw values next to the shape",
+      "text": "A raincloud draws the density, a box and the single points together, so shape and detail sit side by side.",
+      "image": "images/feature-01.png",
+      "alt": "Raincloud chart for four delivery methods with points on the left and a half violin and box on the right."
+    },
+    {
+      "heading": "Show every single value",
+      "text": "A beeswarm spreads the points so none hide behind another, and clusters and outliers stay visible.",
+      "image": "images/feature-02.png",
+      "alt": "Beeswarm chart of basket value for four customer groups, dots spread to show each value."
+    },
+    {
+      "heading": "See how many fall below each level",
+      "text": "A cumulative curve answers questions like how many deliveries arrive within 24 hours.",
+      "image": "images/feature-03.png",
+      "alt": "Cumulative curves of lead time in hours, one line for each of nine regions, rising to 100 percent."
+    },
+    {
+      "heading": "Count the values in every bin",
+      "text": "A dot histogram stacks one dot per value in each bin, so you see the shape and the exact counts.",
+      "image": "images/feature-04.png",
+      "alt": "Dot histogram of lead time in hours for four delivery methods, with one dot per delivery stacked in bins."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Tm Visualization Suite: Multivariate Explorer",
+  "pitch": "Compare many measures across hundreds of stores at once, and find the ones that behave differently.",
+  "question": "Which measures move together, and which stores or items stand apart?",
+  "useWhen": "Compare many measures for many items at once.",
+  "purposes": [
+    "multivariate",
+    "grid"
+  ],
+  "features": [
+    "Find which measures move together",
+    "See every pair as its own plot",
+    "Follow each store across all measures",
+    "Compare one year with another"
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Correlation matrix of nine store measures for fiscal year 2025, blue for positive and red for negative links.",
+    "caption": "Which store measures move together, and which pull apart"
+  },
+  "screenshots": [
+    {
+      "file": "images/gallery-01.png",
+      "alt": "Grid of small scatter plots for fiscal year 2025, one for each pair of store measures.",
+      "caption": "The scatter plots for one year show clusters and outliers"
+    },
+    {
+      "file": "images/gallery-02.png",
+      "alt": "Parallel coordinates for fiscal year 2025 with one line for each store across seven measures.",
+      "caption": "The same stores in fiscal year 2025 follow a different pattern"
+    }
+  ],
+  "questions": [
+    "Which measures rise and fall together?",
+    "Which stores stand out across several measures?",
+    "How did the picture change from one year to the next?"
+  ],
+  "audience": "Analysts and BI leads who study many measures at once for stores, products or customers.",
+  "featureStrips": [
+    {
+      "heading": "Find which measures move together",
+      "text": "A correlation matrix colours each pair of measures, so strong links and opposites show at a glance.",
+      "image": "images/feature-01.png",
+      "alt": "Correlation matrix of nine store measures across all years, coloured from red to blue."
+    },
+    {
+      "heading": "See every pair as its own plot",
+      "text": "A scatter plot matrix draws each pair of measures against each other, so you see the shape behind a number.",
+      "image": "images/feature-02.png",
+      "alt": "Grid of small scatter plots, one for each pair of store measures."
+    },
+    {
+      "heading": "Follow each store across all measures",
+      "text": "Parallel coordinates draw one line per store through every measure, so you see who is high on one and low on another.",
+      "image": "images/feature-03.png",
+      "alt": "Parallel coordinates with one line for each store across seven measures."
+    },
+    {
+      "heading": "Compare one year with another",
+      "text": "Select a year and the lines show only that year, so a change in pattern is easy to see.",
+      "image": "images/feature-04.png",
+      "alt": "Parallel coordinates for fiscal year 2024 with one line for each store across seven measures."
+    }
+  ]
+}

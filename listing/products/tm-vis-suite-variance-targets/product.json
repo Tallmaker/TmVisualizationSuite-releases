@@ -1,0 +1,64 @@
+{
+  "name": "Tm Visualization Suite: Variance & Targets",
+  "pitch": "Compare actual to plan and target for every item, and see who is ahead, who is behind and by how much.",
+  "question": "Are we on plan, and where do we miss the target?",
+  "useWhen": "Compare actual values with plan, target and ranges.",
+  "purposes": [
+    "variance"
+  ],
+  "features": [
+    "See how the pieces add up",
+    "Show the gap to plan for each item",
+    "Track a value against its accepted range",
+    "Check if you are on pace for the year"
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Bullet chart of actual, target, plan and range for eight items, with the bar reaching the target for some items.",
+    "caption": "Actual against target for every item, with the accepted range"
+  },
+  "screenshots": [
+    {
+      "file": "images/gallery-01.png",
+      "alt": "Bullet chart of actual, target, plan and range for eight items in fiscal year 2025.",
+      "caption": "Pick another cycle and every bullet updates to it"
+    },
+    {
+      "file": "images/gallery-02.png",
+      "alt": "Variance bars for fiscal year 2025, increases to the right and decreases to the left of zero.",
+      "caption": "The gap to plan can look very different from one cycle to the next"
+    }
+  ],
+  "questions": [
+    "Which items miss their target this cycle?",
+    "How did actual change against plan, item by item?",
+    "Are we on pace to reach the year-end target?"
+  ],
+  "audience": "Analysts and BI leads who report actual against plan and target in finance and operations.",
+  "featureStrips": [
+    {
+      "heading": "See how the pieces add up",
+      "text": "A waterfall starts at the opening value and adds each increase and decrease, so you see what moved the total.",
+      "image": "images/feature-01.png",
+      "alt": "Waterfall chart from an opening value of 605 to a closing value of 620 with increases and decreases per item."
+    },
+    {
+      "heading": "Show the gap to plan for each item",
+      "text": "Variance bars grow right for ahead of plan and left for behind, so the biggest misses are easy to find.",
+      "image": "images/feature-02.png",
+      "alt": "Bars of actual minus plan per item, with increases to the right and decreases to the left of zero."
+    },
+    {
+      "heading": "Track a value against its accepted range",
+      "text": "A target band draws the value over time inside a shaded range, so a month outside it stands out.",
+      "image": "images/feature-03.png",
+      "alt": "Line of monthly actual values with a shaded accepted range and a dashed target line."
+    },
+    {
+      "heading": "Check if you are on pace for the year",
+      "text": "A pace chart compares the cumulative actual with the cumulative plan and the final target.",
+      "image": "images/feature-04.png",
+      "alt": "Cumulative actual and plan lines over a fiscal year, heading toward a final target."
+    }
+  ]
+}

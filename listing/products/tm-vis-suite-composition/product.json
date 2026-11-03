@@ -1,0 +1,72 @@
+{
+  "name": "Tm Visualization Suite: Composition",
+  "pitch": "Show how a total splits into parts, and how the mix differs from group to group.",
+  "question": "What is the whole made of, and how do the parts compare?",
+  "useWhen": "Show the parts of a whole and compare the mix.",
+  "purposes": [
+    "composition",
+    "grid"
+  ],
+  "features": [
+    "Read one whole as 100 percent",
+    "Count the parts as squares",
+    "Compare groups with one mark per unit",
+    "Follow parts from one list to another",
+    "Pick a channel and see its mix"
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Mosaic of store formats by region: column width shows the region's size and block height shows each format's share.",
+    "caption": "How the mix of store formats differs from region to region"
+  },
+  "screenshots": [
+    {
+      "file": "images/gallery-01.png",
+      "alt": "Unit chart of orders placed through the web shop, one symbol per order, grouped by delivery method.",
+      "caption": "Select a channel and the unit marks show only its orders"
+    },
+    {
+      "file": "images/gallery-02.png",
+      "alt": "Parallel sets for the top-up segment only, with bands to click and collect, express, home delivery and parcel locker.",
+      "caption": "Select a segment and the bands show only where it goes"
+    }
+  ],
+  "questions": [
+    "Which delivery methods does each order channel use?",
+    "How does the mix of customer segments differ by store?",
+    "Which parts make up most of the total?"
+  ],
+  "audience": "Analysts and BI leads who explain a total through its parts and compare the mix between groups.",
+  "featureStrips": [
+    {
+      "heading": "Read one whole as 100 percent",
+      "text": "A stacked bar splits the whole into its parts, so the biggest parts are easy to compare.",
+      "image": "images/feature-01.png",
+      "alt": "Single stacked bar to 100 percent, with segments for each order channel and delivery method."
+    },
+    {
+      "heading": "Count the parts as squares",
+      "text": "A waffle gives each order a small square, so the share of each segment reads as a count you can see.",
+      "image": "images/feature-02.png",
+      "alt": "Waffle chart of orders, one square for each order, coloured by customer segment."
+    },
+    {
+      "heading": "Compare groups with one mark per unit",
+      "text": "Unit marks stack a symbol for every order under each delivery method, so group size and mix show together.",
+      "image": "images/feature-03.png",
+      "alt": "Unit chart with one symbol per order for four delivery methods, coloured by order channel."
+    },
+    {
+      "heading": "Follow parts from one list to another",
+      "text": "Parallel sets draw bands between two lists, so you see how one grouping splits into the other.",
+      "image": "images/feature-04.png",
+      "alt": "Parallel sets with customer segments on the left joined to delivery methods on the right."
+    },
+    {
+      "heading": "Pick a channel and see its mix",
+      "text": "Select an order channel and the mosaic shows only its orders, so you compare its mix with the rest.",
+      "image": "images/feature-05.png",
+      "alt": "Mosaic of store formats by region for web shop orders, with column width for region size."
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "name": "Tm Visualization Suite",
+  "question": "Which chart answers the question you ask of your data?",
+  "pitch": "Ten chart families for Qlik Cloud, each built for a different question about time, spread, flow or parts.",
+  "useWhen": "Add a chart type that a native Qlik chart does not draw.",
+  "purposes": [
+    "comparison",
+    "composition",
+    "grid",
+    "distribution",
+    "hierarchy",
+    "multivariate",
+    "process",
+    "relationship",
+    "spatial",
+    "temporal",
+    "variance"
+  ],
+  "features": [
+    "Follow time and the seasons",
+    "See the whole spread, not just the average",
+    "Compare categories, ranges and ranks",
+    "Follow flows and links",
+    "Break a total into levels",
+    "Walk through a process"
+  ],
+  "shortlinks": [
+    "tmvissuite"
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Mosaic of six charts from the suite: a calendar heatmap, violins, a bump chart, a sunburst, a chord diagram and a mosaic.",
+    "caption": "Ten chart families for the questions a native Qlik chart does not answer"
+  },
+  "screenshots": [
+    {
+      "file": "images/gallery-01.png",
+      "alt": "Correlation matrix of nine store measures, blue for positive links and red for negative links.",
+      "caption": "Compare many measures at once: which ones move together"
+    },
+    {
+      "file": "images/gallery-02.png",
+      "alt": "Map of delivery locations for one region as hexagonal cells, pale in the dense centre and darker toward the edges.",
+      "caption": "Put locations on a map and see where they cluster"
+    },
+    {
+      "file": "images/gallery-03.png",
+      "alt": "Calendar heatmap of daily sales over three years, one block per year, with the darkest days around December.",
+      "caption": "Every day of three years in one view"
+    }
+  ],
+  "key": "tm-visualization-suite",
+  "products": [
+    {
+      "key": "tm-vis-suite-temporal-patterns",
+      "anchor": "temporal"
+    },
+    {
+      "key": "tm-vis-suite-distribution-explorer",
+      "anchor": "distribution"
+    },
+    {
+      "key": "tm-vis-suite-comparison-charts",
+      "anchor": "comparison"
+    },
+    {
+      "key": "tm-vis-suite-relationship-explorer",
+      "anchor": "relationship"
+    },
+    {
+      "key": "tm-vis-suite-hierarchy-explorer",
+      "anchor": "hierarchy"
+    },
+    {
+      "key": "tm-vis-suite-multivariate-explorer",
+      "anchor": "multivariate"
+    },
+    {
+      "key": "tm-vis-suite-process-explorer",
+      "anchor": "process"
+    },
+    {
+      "key": "tm-vis-suite-spatial-explorer",
+      "anchor": "spatial"
+    },
+    {
+      "key": "tm-vis-suite-variance-targets",
+      "anchor": "variance-targets"
+    },
+    {
+      "key": "tm-vis-suite-composition",
+      "anchor": "composition"
+    }
+  ],
+  "questions": [
+    "Which chart fits my question about time, spread or flow?",
+    "How do I show a process, a hierarchy or a map in Qlik?",
+    "Can one set of charts cover my whole analytics team?"
+  ],
+  "audience": "Analysts and BI leads who build Qlik sheets and need charts that a native Qlik chart does not draw.",
+  "featureStrips": [
+    {
+      "heading": "Follow time and the seasons",
+      "text": "Calendar heatmaps, ridgelines and streamgraphs show the rhythm of your numbers over days, weeks and years.",
+      "image": "images/feature-01.png",
+      "alt": "Streamgraph of monthly sales by product group, stacked areas that widen and narrow over time."
+    },
+    {
+      "heading": "See the whole spread, not just the average",
+      "text": "Violins, rainclouds and beeswarms show how values spread inside and between groups.",
+      "image": "images/feature-02.png",
+      "alt": "Raincloud chart for four delivery methods with points on the left and a half violin and box on the right."
+    },
+    {
+      "heading": "Compare categories, ranges and ranks",
+      "text": "Dumbbells, dot plots and bump charts show who changed, by how much and who overtook whom.",
+      "image": "images/feature-03.png",
+      "alt": "Vertical dumbbell chart of net sales for two fiscal years per store, grouped by store format."
+    },
+    {
+      "heading": "Follow flows and links",
+      "text": "Chords, alluvial diagrams and networks show who connects to whom, and how strong the link is.",
+      "image": "images/feature-04.png",
+      "alt": "Alluvial diagram with suppliers on the left and receiving sites on the right, joined by bands of different widths."
+    },
+    {
+      "heading": "Break a total into levels",
+      "text": "Sunbursts, icicles and trees show how a total splits into categories and sub-categories.",
+      "image": "images/feature-05.png",
+      "alt": "Icicle chart of net sales by product group and sub-category, with one colour per group."
+    },
+    {
+      "heading": "Walk through a process",
+      "text": "Traces, swimlanes and journeys show how cases move through steps, and where they wait.",
+      "image": "images/feature-06.png",
+      "alt": "Swimlane chart of order events grouped by team: customer, payment, store, customer service and carrier."
+    },
+    {
+      "heading": "Show the parts of a whole",
+      "text": "Waffles, unit charts and mosaics show how a total splits into parts, and how the mix differs by group.",
+      "image": "images/feature-07.png",
+      "alt": "Unit chart with one symbol per order for four delivery methods, coloured by order channel."
+    },
+    {
+      "heading": "Check actual against plan and target",
+      "text": "Bullets, waterfalls and pace charts show who is ahead of plan, who is behind and by how much.",
+      "image": "images/feature-08.png",
+      "alt": "Waterfall chart from an opening value of 605 to a closing value of 620 with increases and decreases per item."
+    }
+  ]
+}

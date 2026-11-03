@@ -1,0 +1,64 @@
+{
+  "name": "Tm Visualization Suite: Spatial Explorer",
+  "pitch": "See where orders and activity cluster on a map, from a regional overview down to single locations.",
+  "question": "Where do things happen, and where do they cluster?",
+  "useWhen": "Show where things happen and how dense they are.",
+  "purposes": [
+    "spatial"
+  ],
+  "features": [
+    "Start with a regional overview",
+    "Zoom in without losing the pattern",
+    "See how a town spreads out",
+    "Go down to single locations"
+  ],
+  "hero": {
+    "file": "images/hero.png",
+    "alt": "Map of delivery locations for one region as hexagonal cells, pale in the dense centre and darker toward the edges.",
+    "caption": "Where one region's orders come from, cell by cell"
+  },
+  "screenshots": [
+    {
+      "file": "images/gallery-01.png",
+      "alt": "Map of another region with large hexagonal cells shaded from pale to dark by order value.",
+      "caption": "Every region can have its own coarse overview"
+    },
+    {
+      "file": "images/gallery-02.png",
+      "alt": "Map of a third region with medium hexagonal cells, a few dark cells at the edge.",
+      "caption": "Compare how dense the regions are, one at a time"
+    }
+  ],
+  "questions": [
+    "Where do our orders come from?",
+    "Which areas order the most, and which are quiet?",
+    "How fine can I look before the pattern breaks up?"
+  ],
+  "audience": "Analysts and BI leads who study where customers, orders or events are located.",
+  "featureStrips": [
+    {
+      "heading": "Start with a regional overview",
+      "text": "Large cells give the big picture, so you see which parts of the map carry the most value.",
+      "image": "images/feature-01.png",
+      "alt": "Map with a few large hexagonal cells over all delivery locations, shaded from pale to dark by order value."
+    },
+    {
+      "heading": "Zoom in without losing the pattern",
+      "text": "Smaller cells split the regions, so the busy areas show up inside them.",
+      "image": "images/feature-02.png",
+      "alt": "Map of one region with medium hexagonal cells, pale in the centre and darker at the edges."
+    },
+    {
+      "heading": "See how a town spreads out",
+      "text": "Fine cells show how orders spread inside a town and where the edge of the cluster falls.",
+      "image": "images/feature-03.png",
+      "alt": "Map of one region with fine hexagonal cells forming a loose cluster around a dense centre."
+    },
+    {
+      "heading": "Go down to single locations",
+      "text": "The finest setting draws nearly every delivery location, so outliers outside the cluster stand out.",
+      "image": "images/feature-04.png",
+      "alt": "Map of one region with a dot for nearly every delivery location, dense in the middle and sparse outside."
+    }
+  ]
+}
